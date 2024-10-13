@@ -1,0 +1,1096 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+   
+}
+
+.sec1{
+    /* border: 2px solid red; */
+    background-color: rgb(39 67 117);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont1{
+    /* border: 2px solid black; */
+    width: 94%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.card1{
+    /* border: 2px solid green; */
+    height: 95%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+.card1 div{
+    /* border: 2px solid rgb(209, 28, 155); */
+    height: inherit;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: linear 0.5s;
+    cursor: pointer;
+}
+
+.card1 div:hover{
+    background-color:rgb(20, 122, 173);
+}
+
+div h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+#option1{
+    /* border: 2px solid red; */
+    border: none;
+    font-size: 20px;
+    background-color: rgb(39 67 117);
+    font-weight: bold;
+    text-decoration: none;   
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.card2{
+    /* border: 2px solid green; */
+    height: 95%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.slogo{
+    /* border: 2px solid red; */
+    height: 99%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogo i{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card2 div{
+    /* border: 2px solid rgb(10, 1, 1); */
+    height: 99%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    cursor: pointer;
+    /* background-color:red; */
+}
+.card2 div:hover{
+    background-color:rgb(20, 122, 173);
+
+}
+
+
+.llogo i{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.language{
+    /* border: 2px solid rgb(112, 16, 197); */
+    height: 99%;
+    width: 55%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.language:hover{
+    background-color:rgb(20, 122, 173);
+
+    z-index: 111;
+}
+.language select{
+    /* border: 2px solid rgb(239, 211, 3); */
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(39 67 117);
+    border-radius: 5px;
+    border: none;
+}
+.language select:hover{
+    background-color: blue;
+
+}
+
+/* *************************** section 1 end ******************************* */
+
+/* *************************** section 2 start ******************************* */
+.sec2{
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.cont2{
+    /* border: 2px solid black; */
+    height: 75px;
+    width: 260px;
+   fill: #0093d5;
+   margin-left: 35px;
+
+}
+
+/* *************************** section 2 end ******************************* */
+
+/* *************************** section 3 start ******************************* */
+
+.sec3{
+    /* border: 2px solid red; */
+    background-color: rgb(39 67 117);
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.cont3{
+    /* border: 2px solid black; */
+    width: 94%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+}
+.cont3.box1{
+    /* border: 2px solid red; */
+    height: 99%;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: linear 0.5s;
+    cursor: pointer;
+
+}
+.cont3.box1:hover{
+    background-color:rgb(20, 122, 173);
+ 
+}
+.box1 div h1 i{
+    font-size: 30px;
+    color: white;
+
+}
+.cbox{
+    /* border: 2px solid rgb(81, 141, 46); */
+    height: 99%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.cbox:hover{
+    background-color:rgb(20, 122, 173);
+
+}
+.cbox a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.cbox i{
+    font-size: 15px;
+    text-align: end;
+    color: white;
+}
+/* *************************** section 3 end ******************************* */
+
+/* *************************** section 4 start ******************************* */
+.sec4{
+
+    /* border: 2px solid red; */
+    height: 650px;
+    width: 100%;
+    background-image: url('./img0301.webp');
+    background-size: 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.cont4{
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 100%;
+}
+.sec4 .box{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec4 .box h1{
+  
+    background-color: #00205c;
+    font-size: 45px;
+    padding: 10px;
+    text-align: center;
+}
+.sec4 .box a{
+    background-color: #00205c;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.sec4 .box a:hover{
+    background-color: #0093d5;
+}
+.sec4 .box1{
+    /* border: 2px solid rgb(14, 174, 89); */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.sec4 .box1 a{
+    border: 10px;
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+    background-color: #00205c;
+    color: white;
+    padding: 10px;
+    word-spacing: 65px;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sec4 .box1 a:hover{
+    background-color:#0093d5 ;
+}
+
+/* *************************** section 4 end  ******************************* */
+
+/* *************************** section 5 start ******************************* */
+
+.sec5{
+    /* border: 2px solid red; */
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont5{
+    /* border: 2px solid black; */
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box51{
+    /* border: 2px solid red; */
+    border-bottom: 2px solid gray;
+    padding-bottom: 8px;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    gap: 1025px;
+}
+.box51 div{
+    /* border: 2px solid yellow; */
+    height: 55px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: linear 0.5s;
+    cursor: pointer;
+    gap: 25px;
+
+}
+.box51 div:hover{
+    background-color: blue;
+}
+
+.box51 div h1{
+    font-size: 30px;
+    color: black;
+}
+.box51 div a{
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+    
+}
+.box51 div i{
+    font-size: 28px;
+
+
+}
+.box52{
+    /* border: 2px solid blue; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.bbox{
+    /* border: 2px solid rgb(211, 27, 27); */
+    height: 90%;
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: linear 0.5s;
+    cursor: pointer;
+    /* gap: 40px; */
+}
+
+.bbox:hover{
+    border: 2px solid gray;
+    background-color: rgb(231 234 239);
+
+
+    /* transition: linear 0.5s;
+    cursor: pointer; */
+
+
+}
+.bimg{
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 100%;
+}
+.bimg img{
+    border-radius: 5px ;
+    height: 100%;
+    width: 100%;
+}
+.bins{
+    /* border: 2px solid red; */
+    background-color: rgb(246 247 249);
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.bins h5{
+    color: black;
+}
+.bins h1{
+    color: black;
+    font-size: 22px
+}
+
+/* *************************** section 5 end  ******************************* */
+
+/* *************************** section 6 start  ******************************* */
+.sec6{
+    /* border: 2px solid red; */
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont6{
+    /* border: 2px solid black; */
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box61{
+    /* border: 2px solid rgb(244, 34, 34); */
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    gap: 900px;
+}
+.box61 div{
+    /* border: 2px solid yellow; */
+    height: 55px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: linear 0.5s;
+    cursor: pointer;
+    gap: 30px;
+
+}
+.box61 div:hover{
+    background-color: blue;
+}
+
+.box61 div h1{
+    font-size: 25px;
+    color: black;
+}
+.box61 div a{
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+    
+}
+.box61 div i{
+    font-size: 28px;
+
+
+}
+
+.box62{
+    /* border: 2px solid rgb(19, 19, 213); */
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    /* border: 2px solid blue;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+     */
+    
+}
+.hbox{
+    /* border: 2px solid brown; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 25px;
+
+    
+}
+
+.hbox div{
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 22%;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.hbox div h1{
+    color: black;
+}
+
+.bbbox{
+    
+    /* border: 2px solid blue; */
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 25px;
+
+  
+}
+
+
+.bbox6{
+    /* border: 2px solid rgb(225, 20, 139); */
+    height: 90%;
+    width: 22%;
+
+   
+
+
+}
+.bbox6:hover{
+    border: 2px solid gray;
+    background-color: rgb(231 234 239);
+    transition: linear 0.s;
+    cursor: pointer;
+}
+.b6h{
+    /* border: 2px solid black; */
+    color: black;
+    
+}
+
+.b6h:hover{
+    border: 2px solid gray;
+    background-color: rgb(231 234 239);
+
+}
+
+.bimg6{
+    /* border: 2px solid red; */
+    height: 75%;
+    width: 100%;
+}
+.bimg6 img{
+    border-radius: 5px ;
+    height: 100%;
+    width: 100%;
+}
+.bins6{
+    /* border: 2px solid rgb(43, 15, 205); */
+    background-color: rgb(246 247 249);
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+    padding: 25px;
+    font-size: 20px;
+}
+/* *************************** section 6 end  ******************************* */
+
+/* *************************** section 7,8 Start  ******************************* */
+.sec7{
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont7{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cont7 .top{
+    /* border: 2px solid rgb(234, 13, 197); */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    /* flex-direction: column; */
+
+}
+
+
+.cont7 .top .box{
+    border-bottom: 2px solid gray;
+    height: 90%;
+    width: 32%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.cont7 .top .box h1{
+    padding: 5px;
+    font-size: 30px;
+    color: black;
+}
+
+.cont7 .bottom{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 80%;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.bottom .box1{
+    /* border: 2px solid rgb(110, 193, 27); */
+    height: 95%;
+    width: 32%;
+    transition: 1.5s;
+    cursor: pointer;
+    background-color: rgb(231 234 239);
+
+   
+}
+.bottom .box1:hover{
+    border: 2px solid gray;
+    background-color: rgb(231 234 239);
+    
+}
+.bottom .box1 img{
+    height: 80%;
+    width: 100%;
+}
+.bottom .box1 h1{
+    /* border: 2px solid red; */ 
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px;
+
+   
+
+
+}
+.bottom .box1 h1:hover{
+    border: 1px solid gray;
+    background-color: rgb(231 234 239);
+
+    
+
+}
+
+/* *************************** section 7,8 end  ******************************* */
+
+/* *************************** section 9 start  ******************************* */
+.sec9{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont9{
+    /* border: 2px solid black; */
+    height: 98%;
+    width: 95%;
+}
+.cont9 .top{
+    /* border: 2px solid blue; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cont9 .top .left{
+    border-bottom: 2px solid gray;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* margin: 100px; */
+    gap: 220px;
+}
+.cont9 .top .left h1{
+    padding-top: 50px;
+    color: black;
+    font-size: 30px;
+}
+.cont9 .top .left a{
+    padding-top: 50px;
+    color: black;
+
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.cont9 .top .right{
+    border-bottom: 2px solid gray;
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 610px;
+
+}
+.cont9 .top .right h1{
+    padding-top: 50px;
+    color: black;
+    font-size: 30px;
+}
+.cont9 .top .right a{
+    padding-top: 50px;
+    color: black;
+
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.cont9 .bottom{
+    /* border: 2px solid blue; */
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.cont9 .bottom .left{
+    /* border: 2px solid rgb(217, 28, 157); */
+    height: 98%;
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cont9 .bottom .left .box{
+    /* border: 2px solid yellow; */
+    height: 49%;
+    width: 100%;
+    background-color: #fafafa;
+}
+.cont9 .bottom .left .box img{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px; */
+
+}
+.cont9 .bottom .left .box h1{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.cont9 .bottom .left .box p{
+    font-size: 14px;
+    /* padding: 8px; */
+    padding-left: 20px;
+
+    
+
+}
+
+.cont9 .bottom .right{
+    /* border: 2px solid rgb(21, 212, 49); */
+    height: 98%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.cont9 .bottom .right .box{
+    /* border: 2px solid red; */
+    height: 19%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    background-color: #e2e0e0;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.cont9 .bottom .right .box:hover{
+    border: 2px solid gray;
+    background-color: rgb(210, 212, 214);
+
+}
+.cont9 .bottom .right .box img{
+    height: 138px;
+    width: 130px;
+}
+.cont9 .bottom .right .box h1{
+    font-size: 20px;
+    color: black;
+}
+.cont9 .bottom .right .box h1 p{
+    font-size: 15px;
+}
+/* *************************** section 9 end  ******************************* */
+
+/* *************************** Footer section  start  ******************************* */
+.sec10{
+    /* border: 2px solid red; */
+    height: 550px;
+    width: 100%;
+    background-color:#0c2b64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont10{
+    /* border: 2px solid black; */
+    height: 90%;
+    width: 95%;
+}
+.cont10 .top{
+    /* border: 2px solid green; */
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont10 .top .box{
+    /* border: 2px solid yellow; */
+    height: 98%;
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.cont10 .top .box a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 600;
+}
+.cont10 .top .box a:hover{
+    background-color:rgb(45, 91, 241);
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin-bottom: 6px;
+}
+.cont10 .top .boxlist a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400
+    
+}
+
+.cont10 .top .boxlast{
+    /* border: 2px solid yellow; */
+    height: 98%;
+    width: 40%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+.cont10 .top .boxlast a{
+    /* border: 2px solid brown; */
+    height: 40px;
+    width: 150px;
+    font-size: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    
+
+
+}
+.cont10 .top .boxlast a:hover{
+    background-color:rgb(45, 91, 241);
+    
+
+}
+.cont10 .top .boxlast button{
+    font-size: 20px;
+    height: 40px;
+    width: 250px;
+    border: 2px solid #00205c;
+    background-color: #2a4577;
+    color: white;
+    margin-top: 35px;
+    margin-left: 35px;   
+}
+.cont10 .top .boxlast button:hover{
+    border: 2px solid rgb(45, 91, 241);
+    border-radius: 3px;
+    
+
+}
+
+
+
+
+.cont10 .bottom{
+    /* border: 2px solid green; */
+    height: 35%;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont10 .bottom div{
+    /* border: 2px solid red; */
+    height: 140px;
+    width: 335px;
+   fill:white;
+   margin-left: 35px;
+   padding: 5px;
+   align-items: center;
+    
+}
+.cont10 .bottom div:hover{
+    background-color:rgb(45, 91, 241);
+}
+/* *************************** Footer section  end  ******************************* */
+
+/* *************************** Footer 1section  start  ******************************* */
+
+.sec11{
+    /* border: 2px solid red; */
+    height: 80px;
+    width: 100%;
+    background-color: #274375;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont11{
+    /* border: 2px solid black; */
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont11 .card1{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 15%;
+}
+.cont11 .card1 a{
+    font-size: 17px;
+    color:white;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cont11 .card1 a:hover{
+    background-color:rgb(45, 91, 241);
+
+
+}
+.cont11 .card2{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 30%;
+    padding-right: 0cap;
+    margin-right: 0ch; 
+}
+
+.cont11 .card2 i{
+    font-size: 25px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    
+
+}
+.cont11 .card2 i:hover{
+    background-color:rgb(45, 91, 241);
+
+}
+.cont11 .card3{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+.cont11 .card3 h1{
+    font-size: 17px;
+}
+.cont11 .card3 a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cont11 .card3 a:hover{
+    background-color:rgb(45, 91, 241);
+
+    
+}
+
+
+
+
+/* *************************** Footer 1section   end   ******************************* */
